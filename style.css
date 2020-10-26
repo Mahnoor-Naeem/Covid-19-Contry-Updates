@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 3em !important;
+}
+span img{
+    animation: corona-vir 5s linear infinite;
+}
+@keyframes corona-vir{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.left_side img{
+    animation: heart 5s linear infinite;
+}
+@keyframes heart{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(.75);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(.75);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+h3{
+    color: #ff7675 !important;
+}
